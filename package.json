@@ -1,0 +1,28 @@
+{
+  "name": "filecoinexploration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsolly/FileCoinExploration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsolly/FileCoinExploration/issues"
+  },
+  "homepage": "https://github.com/jsolly/FileCoinExploration#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.5.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
