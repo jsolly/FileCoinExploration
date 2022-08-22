@@ -34,8 +34,8 @@ let options = {
     body: `{
         "jsonrpc": "2.0",
         "id": 0,
-        "method": "Filecoin.WalletValidateAddress",
-        "params": ["f1abjxfbp274xpdqcpuaykwkfb43omjotacm2p3za"],
+        "method": "Filecoin.WalletBalance",
+        "params": ["f1abjxfbp274xpdqcpuaykwkfb43omjotacm2p3za"]
    }`
   }
 let fc_response;
